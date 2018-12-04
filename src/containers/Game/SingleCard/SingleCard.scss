@@ -1,0 +1,27 @@
+.single-card {
+  border: 0;
+  margin-right: 1px;
+	perspective: 80rem;
+	position: relative;
+  padding-top: 100%;
+  cursor: pointer;
+  &__side {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transition: all 0.2s ease;
+    width: 100%;
+    &--hidden {
+      transform: rotateY(180deg);
+      visibility: hidden;
+    }
+    &--visible {
+      transform: rotateY(0deg);
+      visibility: visible;
+    }
+  }
+}
+
+

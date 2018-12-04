@@ -1,0 +1,18 @@
+// reactstrap overwrite
+.modal-dialog {
+  margin-top: 2rem;
+}
+
+.gameOverModal {
+  &__body {
+    text-align: center;
+  }
+  &__img {
+    max-width: 100%;
+  }
+  &__sendbutton {
+    margin: 1px;
+    width: 9rem;
+    font-size: 1rem;
+  }
+}

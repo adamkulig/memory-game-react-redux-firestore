@@ -1,0 +1,17 @@
+@import '../../scss/colors.scss';
+
+.home {
+  text-align: center;
+  color: $c-text-primary;
+  padding: 1rem;
+  &__login {
+    max-width: 20rem;
+    margin: 0.5rem auto;
+  }
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+  }
+}
